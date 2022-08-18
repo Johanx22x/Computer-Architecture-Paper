@@ -1,15 +1,15 @@
 ---
-title: 'Paper Title'
+title: 'Edge Computing'
 author:
-  - name: Santos Gallegos
-    affiliation: Universidad de Cuenca
-    location: Cuenca, Ecuador
-    email: santos_g@email.com
+    name: Johan Rodriguez
+    affiliation: Instituto Tecnologico de Costa Rica
+    email: johrodriguez@estudiantec.cr
 keywords:
   - one
   - two
   - three
 numbersections: yes
+documentclass: IEEEconf
 lang: en
 babel-lang: english
 abstract: |

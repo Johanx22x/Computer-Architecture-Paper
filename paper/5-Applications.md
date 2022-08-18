@@ -1,0 +1,3 @@
+# Applications
+
+Edge Computing applications.

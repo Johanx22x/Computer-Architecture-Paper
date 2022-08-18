@@ -1,19 +1,20 @@
 FILES = paper/* \
-		metadata.yaml
 
 OUTPUT = build
 
 FLAGS = --bibliography=bibliography.bib \
 		--csl=bibliography.csl \
+		--citeproc \
+		--metadata-file=metadata.yaml \
 		-s \
-		-f markdown
-
-FLAGS_PDF = --template=template.latex
+		-t pdf
 
 all: pdf
 
+--template=template.latex
+
 pdf:
-	pandoc -o $(OUTPUT)/paper.pdf $(FLAGS) $(FLAGS_PDF) $(FILES)
+	pandoc -o $(OUTPUT)/paper.pdf $(FLAGS) $(FILES)
 
 clean:
 	rm build/*
