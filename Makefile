@@ -1,4 +1,4 @@
-FILES = paper/* \
+FILES = paper/*.md \
 
 OUTPUT = build
 
