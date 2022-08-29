@@ -1,21 +1,31 @@
 ---
 title: 'Edge Computing'
 author:
-    name: Johan Rodriguez
+  - name: Johan Rodriguez Salas, Gabriel Alfaro Ulate, Christian Ferreto Morera
     affiliation: Instituto Tecnologico de Costa Rica
-    email: johrodriguez@estudiantec.cr
+    location: Costa Rica
+    email: johrodriguez@estudiantec.cr, gaalfaro@estudiantec.cr, cferreto@estudiantec.cr
 keywords:
-  - one
-  - two
-  - three
+  - Data transmission
+  - IoT
+  - 4.0 Industry
+  - Costa Rica
 numbersections: yes
 documentclass: IEEEconf
 lang: en
 babel-lang: english
 abstract: |
-  This is the abstract.
-
-  It consists of two paragraphs.
+    This research is a useful summary about Edge Computing and its concepts, 
+    and how this technology is currently helping different data transmission 
+    infrastructures to be more efficient, secure and faster, while also 
+    implementing an ease way to work with IoT and 4.0 Industry. In addition, 
+    this article also talks about the current situation of Edge Computing in 
+    Costa Rica. In this way, providing useful results on how this technology 
+    is currently applied and the benefits it brings when applied to a 
+    technological system compatible with it.
+header-includes: |
+  \usepackage{booktabs}
 
 ...
 
+---

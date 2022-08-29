@@ -3,7 +3,11 @@ FILES = paper/*.md \
 OUTPUT = build
 
 FLAGS = --bibliography=bibliography.bib \
+		--from=markdown \
+		--to=latex \
+		--template=template.latex \
 		--csl=bibliography.csl \
+		--filter=pandoc-crossref \
 		--citeproc \
 		--metadata-file=metadata.yaml \
 		-s \
