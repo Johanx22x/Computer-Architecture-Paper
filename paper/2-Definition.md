@@ -1,3 +1,4 @@
+
 # Definition
 
 According to [@IBM] the term Edge Computing refers to:
@@ -20,10 +21,11 @@ around the world is a problem for today's infrastructures. Since,
 managing this large number of linked devices and their data 
 is a complex and heavy task, this is where Edge Computing offers 
 a solution to support the efficiency of these systems that are 
-responsible for centralizing and processing data. With Edge Computing, 
-data is processed and analyzed closer to where it was created, because 
-that means data doesn't have to travel to the cloud or a data center 
-to be processed. Another benefit is the fact that the latency when 
-working with these systems is significantly reduced [@IBM].
+responsible for centralizing and processing data. As show in [@fig:edge_computing], 
+with Edge Computing, data is processed and analyzed closer to where 
+it was created, because that means data doesn't have to travel to 
+the cloud or a data center to be processed. Another benefit is the 
+fact that the latency when working with these systems is significantly 
+reduced [@IBM].
 
-![[edge computing](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjelvix.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwhat-is-edge-computing.jpg&f=1&nofb=1)](images/edge_computing1.jpg){#fig:edge_computing}
+![[Edge Computing architecture](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjelvix.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwhat-is-edge-computing.jpg&f=1&nofb=1)](images/edge_computing1.jpg){#fig:edge_computing}
