@@ -8,22 +8,29 @@ data and then sending them to the Data Centers or to the cloud for processing.
 
 ## Edge Gateway
 
-It can be a device or software, which is used as a bridge to connect the cloud and 
+The edge gateway is a crucial part of edge computing. To bring together various communication 
+technologies, it extends cloud capabilities to your local edge devices. It’s like having your 
+own mini-cloud, with efficiency, security, low latency and local autonomy. It can be a device 
+or software, which is used as a bridge to connect the cloud and 
 controllers, sensors and smart devices.
 
-![[Edge Gateway]()](images/Edge-gateway.png){#fig:edge_gateway}
+![[Edge Gateway [@gateway]]()](images/Edge-gateway.png){#fig:edge_gateway}
 
 ## Edge Devices
 
 Refers to any device that generates or collects data, for example: Sensors, 
 industrial machines, and more devices related to the use of the Internet.
-
-![[Edge Devices]()](images/edge-devices1.jpg){#fig:edge_devices1}
-
 It is responsible for processing and storing part of the data they emit on the 
 devices themselves, without sending them directly to the cloud.
+An edge device is any piece of hardware that controls data flow at the 
+boundary between two networks. Edge devices fulfill a variety of roles, 
+depending on what type of device they are, but they essentially serve as 
+network entry or exit points. Some common functions of edge devices 
+are the transmission, routing, processing, monitoring, filtering, translation 
+and storage of data passing between networks. Edge devices are used by 
+enterprises and service providers [@device].
 
-![[Edge Devices relationship]()](images/edge-devices2.png){#fig:edge_devices2}
+![[Edge Devices relationship [@relationship]]()](images/edge-devices2.png){#fig:edge_devices2}
 
 ## Data Security and Privacy
 
@@ -62,6 +69,24 @@ In summary, Edge Computing offers the user a much more efficient and faster expe
 communicating with different services through the web and other interconnection systems such 
 as real-time technologies that keep people's lives safe, like an automated car as show in [@fig:car_device].
 
-![[Car as an Edge Device](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjelvix.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwhat-is-edge-computing.jpg&f=1&nofb=1)](images/car-as-edge-device.jpg){#fig:car_device}
+![[Car as an Edge Device [@car_device]](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjelvix.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwhat-is-edge-computing.jpg&f=1&nofb=1)](images/car-as-an-edge-device.png){#fig:car_device}
 
 ## Scalability
+
+To have good scalability with an edge computing architecture, you may need a model that satisfies 
+some concepts, for example, connectivity between edge devices, nodes, servers, etc. There are 
+actually two dominant models, the hierarchical model and the software-defined model [@yu2017survey].
+
+### Hierarchical Model
+
+The hierarchical model focuses on defining the different parts of the Edge Computing architecture in 
+such a way that a hereditary type relationship can be created where each node has its function and 
+at the same time is related to another within the structure, in this way each node fulfills its due 
+function and the system is maintained [@yu2017survey].
+
+### Software-Defined Model
+
+On the other hand, the Software Defined Model system focuses on implementing concepts that help manage 
+Edge Computing and its various complexities, for example, using Software Defined Networking, which is 
+a viable solution in terms of infrastructure management. There are even other models that help reduce 
+implementation, administration and management costs [@yu2017survey].

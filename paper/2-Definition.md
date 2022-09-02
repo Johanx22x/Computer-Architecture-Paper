@@ -28,4 +28,4 @@ the cloud or a data center to be processed. Another benefit is the
 fact that the latency when working with these systems is significantly 
 reduced [@IBM].
 
-![[Edge Computing architecture](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjelvix.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwhat-is-edge-computing.jpg&f=1&nofb=1)](images/edge_computing1.jpg){#fig:edge_computing}
+![[Edge Computing architecture [@jelvix]](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjelvix.com%2Fwp-content%2Fuploads%2F2020%2F03%2Fwhat-is-edge-computing.jpg&f=1&nofb=1)](images/edge_computing1.jpg){#fig:edge_computing}
